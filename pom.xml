@@ -20,7 +20,7 @@
 
         <!--Test properties -->
         <testng.version>6.9.10</testng.version>
-        <selenium.version>2.52.0</selenium.version>
+        <selenium.version>2.53.0</selenium.version>
 
         <!--Allure properties -->
         <aspectj.version>1.8.0</aspectj.version>
@@ -81,6 +81,16 @@
             <artifactId>aspectjweaver</artifactId>
             <version>${aspectj.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>2.53.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>2.53.0</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -110,6 +120,12 @@
                         <groupId>org.aspectj</groupId>
                         <artifactId>aspectjweaver</artifactId>
                         <version>${aspectj.version}</version>
+                    </dependency>
+                    <!-- Yandex AShot -->
+                    <dependency>
+                        <groupId>ru.yandex.qatools.ashot</groupId>
+                        <artifactId>ashot</artifactId>
+                        <version>1.5.2</version>
                     </dependency>
                 </dependencies>
             </plugin>

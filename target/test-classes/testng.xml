@@ -20,6 +20,7 @@
 
         <classes>
             <class name="pageobject.test.HeaderTest"/>
+            <class name="pageobject.test.LoginTest"/>
             <!--<class name="pageobject.test.HomePageTest"/>
             <class name="pageobject.test.AboutPageTest"/>
             <class name="pageobject.test.ServicesPageTest"/>
@@ -30,4 +31,14 @@
         </classes>
 
     </test>
+
+   <!-- <test name="VPTestSuiteFirefox">
+
+        <classes>
+            <class name="pageobject.test.HeaderTest"/>
+            <class name="pageobject.test.LoginTest"/>
+
+        </classes>
+
+    </test>-->
 </suite>
