@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -41,20 +42,11 @@ public class HeaderPage extends Page {
     @FindBy(xpath = ".//*[@id='bs-example-navbar-collapse-1']/ul/li[3]/a")
     WebElement lvov2ReluxLink;
 
-    @FindBy(xpath = ".//*[@id='navigation']/div[1]/div[3]/div/span")
+    @FindBy(xpath = ".//*[@id='bs-example-navbar-collapse-1']/ul/li[8]/a")
     WebElement headerAddonMenuBtn;
 
-    @FindBy(xpath = ".//*[@id='navigation']/div[1]/div[3]/div/div")
-    WebElement headerAddonMenuDrpdwn;
-
-
-    public boolean verifyHeaderAddonMenuList(List addonMenuList) {
-        headerAddonMenuBtn.click();
-        List<WebElement> addonMenu = headerAddonMenuDrpdwn.findElements(By.tagName("li"));
-        if (addonMenu.g)
-    }
-
-
+    @FindBy(xpath = ".//*[@id='bs-example-navbar-collapse-1']/ul/li[8]/ul")
+    WebElement headerAddonMenuDrpdwnValues;
 
 
 
@@ -62,6 +54,7 @@ public class HeaderPage extends Page {
     public HeaderPage(WebDriver webDriver) {
         super(webDriver);
     }
+
 
     public boolean logoImageVerification() {
         return logo.isDisplayed();
@@ -154,5 +147,19 @@ public class HeaderPage extends Page {
 
         return lvov2ReluxLink.getAttribute("href");
     }
+
+    public String verifyAddonList (){
+        headerAddonMenuBtn.click();
+        List <WebElement> addonMenuList = headerAddonMenuDrpdwnValues.findElements(By.tagName("li"));
+        List <String> addonMenuListString= new ArrayList<String>();
+        for (WebElement e: addonMenuList){
+            addonMenuListString.add(e.getText());
+        }
+        return addonMenuListString.toString();
+    }
+
+
+
+
 
 }

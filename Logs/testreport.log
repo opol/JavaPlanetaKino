@@ -86,3 +86,38 @@
 07 Feb 2017 01:21:39  INFO [main] (HeaderTest.java:39)- Verified Showtimes tab redirects to correct page
 07 Feb 2017 01:21:55  INFO [main] (HeaderTest.java:45)- Verified login link is displayed on Header
 07 Feb 2017 01:22:11  INFO [main] (HeaderTest.java:51)- Verified login link redirects to correct page
+09 Feb 2017 23:35:27  INFO [main] (HeaderTest.java:17)- Verified logo image on Header
+09 Feb 2017 23:36:02  INFO [main] (HeaderTest.java:31)- Verified Showtimes tab is displayed on Header
+09 Feb 2017 23:36:21  INFO [main] (HeaderTest.java:39)- Verified Showtimes tab redirects to correct page
+09 Feb 2017 23:36:36  INFO [main] (HeaderTest.java:45)- Verified login link is displayed on Header
+09 Feb 2017 23:36:52  INFO [main] (HeaderTest.java:51)- Verified login link redirects to correct page
+09 Feb 2017 23:37:07  INFO [main] (HeaderTest.java:58)- Verified Movies tab is displayed on Header and is link
+09 Feb 2017 23:37:26  INFO [main] (HeaderTest.java:64)- Verified Movies tab redirects to correct page
+09 Feb 2017 23:37:45  INFO [main] (HeaderTest.java:70)- Verified Relux tab redirects to correct page
+09 Feb 2017 23:39:00  INFO [main] (TestBase.java:46)- Screenshot taken
+09 Feb 2017 23:42:50  INFO [main] (TestBase.java:46)- Screenshot taken
+11 Feb 2017 21:14:13  INFO [main] (HeaderTest.java:17)- Verified logo image on Header
+11 Feb 2017 21:14:49  INFO [main] (HeaderTest.java:31)- Verified Showtimes tab is displayed on Header
+11 Feb 2017 21:15:09  INFO [main] (HeaderTest.java:39)- Verified Showtimes tab redirects to correct page
+11 Feb 2017 21:15:26  INFO [main] (HeaderTest.java:45)- Verified login link is displayed on Header
+11 Feb 2017 21:15:42  INFO [main] (HeaderTest.java:51)- Verified login link redirects to correct page
+11 Feb 2017 21:16:00  INFO [main] (HeaderTest.java:58)- Verified Movies tab is displayed on Header and is link
+11 Feb 2017 21:16:22  INFO [main] (HeaderTest.java:64)- Verified Movies tab redirects to correct page
+11 Feb 2017 21:16:48  INFO [main] (HeaderTest.java:70)- Verified Relux tab redirects to correct page
+11 Feb 2017 21:17:10  INFO [main] (TestBase.java:46)- Screenshot taken
+12 Feb 2017 01:15:22  INFO [main] (HeaderTest.java:70)- Verified Relux tab redirects to correct page
+12 Feb 2017 01:15:41  INFO [main] (TestBase.java:46)- Screenshot taken
+12 Feb 2017 14:56:26  INFO [main] (TestBase.java:46)- Screenshot taken
+13 Feb 2017 00:05:09  INFO [main] (TestBase.java:46)- Screenshot taken
+13 Feb 2017 00:07:26  INFO [main] (TestBase.java:46)- Screenshot taken
+13 Feb 2017 10:08:38  INFO [main] (TestBase.java:46)- Screenshot taken
+13 Feb 2017 10:09:41  INFO [main] (TestBase.java:46)- Screenshot taken
+13 Feb 2017 10:11:16  INFO [main] (TestBase.java:46)- Screenshot taken
+13 Feb 2017 10:12:37  INFO [main] (TestBase.java:46)- Screenshot taken
+13 Feb 2017 10:15:42  INFO [main] (TestBase.java:46)- Screenshot taken
+13 Feb 2017 23:09:47  INFO [main] (TestBase.java:46)- Screenshot taken
+17 Feb 2017 23:29:40  INFO [main] (TestBase.java:46)- Screenshot taken
+17 Feb 2017 23:39:18  INFO [main] (TestBase.java:46)- Screenshot taken
+17 Feb 2017 23:53:45  INFO [main] (TestBase.java:46)- Screenshot taken
+17 Feb 2017 23:57:57  INFO [main] (TestBase.java:46)- Screenshot taken
+18 Feb 2017 00:13:49  INFO [main] (TestBase.java:46)- Screenshot taken

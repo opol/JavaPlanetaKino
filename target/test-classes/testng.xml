@@ -19,10 +19,10 @@
     <test name="VPTestSuiteChrome">
 
         <classes>
-            <class name="pageobject.test.HeaderTest"/>
-            <class name="pageobject.test.LoginTest"/>
-            <!--<class name="pageobject.test.HomePageTest"/>
-            <class name="pageobject.test.AboutPageTest"/>
+            <!--<class name="pageobject.test.HeaderTest"/>-->
+            <!--<class name="pageobject.test.LoginTest"/>-->
+            <class name="pageobject.test.ShowtimesTest"/>
+            <!--<class name="pageobject.test.AboutPageTest"/>
             <class name="pageobject.test.ServicesPageTest"/>
             <class name="pageobject.test.WorkPageTest"/>
             <class name="pageobject.test.BlogPageTest"/>

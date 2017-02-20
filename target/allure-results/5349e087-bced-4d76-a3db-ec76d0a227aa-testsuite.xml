@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1486974004142" stop="1486974023414" version="1.4.0">
+    <name>VillagePrint Site Test Suite</name>
+    <test-cases>
+        <test-case start="1486974021892" stop="1486974022221" status="passed">
+            <name>verifyAddonMenuList</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="feature" value="VPTestSuiteChrome"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

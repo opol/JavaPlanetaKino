@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1487020135012" stop="1487020135039" version="1.4.0">
+    <name>VillagePrint Site Test Suite</name>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="feature" value="VPTestSuiteChrome"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
